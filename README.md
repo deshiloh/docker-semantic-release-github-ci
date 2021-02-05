@@ -22,3 +22,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: npx semantic-release
 ```
+
+You have to register a secret token in your repository's settings and called it with `${{ secrets.token_name }}`
